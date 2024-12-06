@@ -206,9 +206,17 @@
 .video-title {
   color: var(--grey, #2c2c2c);
   font-family: var(--common-font);
+  margin-bottom: 24px;
 }
 
 .footer {
   padding: 16px;
   background-color: var(--blue-light);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 8px;
+  align-items: center;
 }
